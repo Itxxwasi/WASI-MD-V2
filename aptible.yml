@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: discorde
     steps:
     - uses: actions/checkout@v4
       with:
@@ -18,6 +18,6 @@ jobs:
         type: git
         app: wasimdbot
         environment: node.js
-        username: ${{ secrets.APTIBLE_USERNAME }}
+        username: ${{ secrets.APTIBLE_malik khan }}
         password: ${{ secrets.APTIBLE_PASSWORD }}
 # if you have git cli you can deploy on it
