@@ -55,7 +55,7 @@ global.api_smd = "https://api-smd-1.vercel.app";
 global.scan = "https://pair-qr-wasi-md.onrender.com";
 
 global.SESSION_ID =
-  process.env.SESSION_ID ""
+  process.env.SESSION_ID || ""
 module.exports = {
   menu: process.env.MENU || "",
   HANDLERS: process.env.PREFIX || ".",
